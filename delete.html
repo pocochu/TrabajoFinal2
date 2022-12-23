@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminar una Pagina</title>
+</head>
+<body>
+    <header>
+        <h1>Elimine una Pagina</h1>
+    </header>
+    <article>
+        <form action="cgi-bin\delete.pl">
+            <label for="1">Usuario: </label>
+            <input type="text" name="user" id="1" required><br><br>
+            <label for="2">Titulo: </label>
+            <input type="text" name="title" id="2" required><br><br>
+            <input type="submit" value="Eliminar">
+        </form>
+    </article>
+</body>
+</html>

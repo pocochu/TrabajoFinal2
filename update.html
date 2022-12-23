@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualizar una Pagina</title>
+</head>
+<body>
+    <header>
+        <h1>Actualize un Pagina</h1>
+    </header>
+    <article>
+        <form action="cgi-bin\update.pl">
+            <label for="1">Titulo: </label>
+            <input type="text" name="title" id="1" required><br><br>
+            <label for="2">Texto: </label>
+            <textarea name="text" id="2" cols="30" rows="10"></textarea><br>
+            <label for="3">Usuario: </label>
+            <input type="text" name="user" id="3" required><br><br>
+            <input type="submit" value="Actualizar">
+        </form>
+    </article>
+</body>
+</html>
