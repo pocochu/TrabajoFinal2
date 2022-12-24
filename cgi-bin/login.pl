@@ -7,8 +7,6 @@ use DBI;
 my $q = CGI->new;
 my $user = $q->param("user");
 my $password = $q->param("password");
-my $firstName = $q->param("firstName");
-my $lastName = $q->param("lastName");
 
 print $q->header('text/XML');
 print "<?xml version='1.0' encoding='utf-8'?>\n";
